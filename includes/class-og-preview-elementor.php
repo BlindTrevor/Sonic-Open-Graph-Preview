@@ -62,7 +62,7 @@ class OG_Preview_Elementor {
         ?>
         <div id="og-preview-elementor-panel" style="display:none;">
             <div class="og-preview-elementor-header">
-                <h3><?php esc_html_e('Social Media Preview', 'og-preview'); ?></h3>
+                <h3><?php esc_html_e('Social Media Preview', 'sonic-og-preview'); ?></h3>
                 <button class="og-preview-close" type="button">&times;</button>
             </div>
             
@@ -87,14 +87,14 @@ class OG_Preview_Elementor {
             
             <div class="og-preview-refresh">
                 <button type="button" class="button og-preview-refresh-btn">
-                    <?php esc_html_e('Refresh Preview', 'og-preview'); ?>
+                    <?php esc_html_e('Refresh Preview', 'sonic-og-preview'); ?>
                 </button>
             </div>
         </div>
         
-        <button id="og-preview-elementor-trigger" type="button" title="<?php esc_attr_e('Social Media Preview', 'og-preview'); ?>">
+        <button id="og-preview-elementor-trigger" type="button" title="<?php esc_attr_e('Social Media Preview', 'sonic-og-preview'); ?>">
             <i class="eicon-share" aria-hidden="true"></i>
-            <span class="elementor-screen-only"><?php esc_html_e('Social Media Preview', 'og-preview'); ?></span>
+            <span class="elementor-screen-only"><?php esc_html_e('Social Media Preview', 'sonic-og-preview'); ?></span>
         </button>
         <?php
     }
