@@ -1,7 +1,7 @@
-# OG Preview
+# Sonic OG Preview
 
 ![WordPress Plugin](https://img.shields.io/badge/WordPress-Plugin-blue)
-![Version](https://img.shields.io/badge/version-1.0.1-green)
+![Version](https://img.shields.io/badge/version-1.1.0-green)
 ![License](https://img.shields.io/badge/license-GPL%20v2%2B-blue)
 
 A WordPress plugin that provides a live preview of how your pages and posts will look when shared on social media platforms, based on Open Graph (OG) tags. Includes seamless integration with Elementor page builder.
@@ -46,16 +46,16 @@ A WordPress plugin that provides a live preview of how your pages and posts will
 
 1. Download the latest release from the [GitHub repository](https://github.com/BlindTrevor/OG-Preview)
 2. Extract the ZIP file
-3. Upload the `og-preview` folder to the `/wp-content/plugins/` directory
+3. Upload the `sonic-og-preview` folder to the `/wp-content/plugins/` directory
 4. Activate the plugin through the 'Plugins' menu in WordPress
-5. Configure settings at **Settings > OG Preview**
+5. Configure settings at **Settings > Sonic OG Preview**
 
 ### From WordPress Plugin Directory (when available)
 
 1. Navigate to **Plugins > Add New** in your WordPress admin
-2. Search for "OG Preview"
+2. Search for "Sonic OG Preview"
 3. Click **Install Now** and then **Activate**
-4. Configure settings at **Settings > OG Preview**
+4. Configure settings at **Settings > Sonic OG Preview**
 
 ### Requirements
 
@@ -70,7 +70,7 @@ A WordPress plugin that provides a live preview of how your pages and posts will
 
 After installation and activation:
 
-1. Navigate to **Settings > OG Preview** in your WordPress admin
+1. Navigate to **Settings > Sonic OG Preview** in your WordPress admin
 2. Enable the social media platforms you want to preview (Facebook, Twitter, WhatsApp, LinkedIn)
 3. Save your settings
 
@@ -103,7 +103,7 @@ After installation and activation:
 
 ### Settings
 
-Navigate to **Settings > OG Preview** in the WordPress admin to:
+Navigate to **Settings > Sonic OG Preview** in the WordPress admin to:
 
 - **Enable/disable specific social platforms**: Choose which platforms (Facebook, Twitter, WhatsApp, LinkedIn) to show in the preview
 - **Control preview display**: Configure where and how previews appear in your WordPress admin
@@ -207,8 +207,8 @@ Yes, developers can use the `og_preview_tags` filter to modify the OG tags befor
 ### File Structure
 
 ```
-og-preview/
-├── og-preview.php                     # Main plugin file
+sonic-og-preview/
+├── sonic-og-preview.php               # Main plugin file
 ├── readme.txt                         # WordPress.org readme
 ├── includes/
 │   ├── class-og-preview-core.php      # Core OG tag extraction logic
@@ -270,8 +270,10 @@ GPL v2 or later
 ## Author
 
 **BlindTrevor**  
-Sweet Pea Software  
-[https://www.sweetpeasoftware.co.uk](https://www.sweetpeasoftware.co.uk)
+Sonic Lighting  
+[https://soniclighting.com](https://soniclighting.com)
+
+> This plugin is not affiliated with Sweet Pea Software or any other third-party entity.
 
 ## Support
 
@@ -283,6 +285,11 @@ For issues, questions, and feature requests:
 - ⭐ [Star this repo](https://github.com/BlindTrevor/OG-Preview) if you find it useful!
 
 ## Changelog
+
+### 1.1.0
+- Renamed plugin to "Sonic OG Preview" for WordPress Plugin Directory compliance
+- Updated author to BlindTrevor / Sonic Lighting (soniclighting.com)
+- Updated plugin slug to sonic-og-preview
 
 ### 1.0.1
 - Fixed WordPress coding standards compliance
