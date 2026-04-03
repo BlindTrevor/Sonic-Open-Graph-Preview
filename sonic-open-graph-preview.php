@@ -19,7 +19,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Define plugin constants
-define('OG_PREVIEW_VERSION', '1.1.0');
+define('OG_PREVIEW_VERSION', '1.2.0');
 define('OG_PREVIEW_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('OG_PREVIEW_PLUGIN_URL', plugin_dir_url(__FILE__));
 

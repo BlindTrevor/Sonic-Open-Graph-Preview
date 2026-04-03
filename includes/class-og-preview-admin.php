@@ -19,8 +19,8 @@ class OG_Preview_Admin {
      */
     public function add_admin_menu() {
         add_options_page(
-            __('Sonic OG Preview Settings', 'sonic-og-preview'),
-            __('Sonic OG Preview', 'sonic-og-preview'),
+            __('Sonic OG Preview Settings', 'sonic-open-graph-preview'),
+            __('Sonic OG Preview', 'sonic-open-graph-preview'),
             'manage_options',
             'og-preview-settings',
             array($this, 'settings_page')
@@ -37,14 +37,14 @@ class OG_Preview_Admin {
         
         add_settings_section(
             'og_preview_general',
-            __('General Settings', 'sonic-og-preview'),
+            __('General Settings', 'sonic-open-graph-preview'),
             array($this, 'general_section_callback'),
             'og-preview-settings'
         );
         
         add_settings_field(
             'og_preview_platforms',
-            __('Enabled Platforms', 'sonic-og-preview'),
+            __('Enabled Platforms', 'sonic-open-graph-preview'),
             array($this, 'platforms_field_callback'),
             'og-preview-settings',
             'og_preview_general'
@@ -55,7 +55,7 @@ class OG_Preview_Admin {
      * General section callback
      */
     public function general_section_callback() {
-        echo '<p>' . esc_html__('Configure which social media platforms to show previews for.', 'sonic-og-preview') . '</p>';
+        echo '<p>' . esc_html__('Configure which social media platforms to show previews for.', 'sonic-open-graph-preview') . '</p>';
     }
     
     /**
@@ -94,7 +94,7 @@ class OG_Preview_Admin {
                 <?php
                 settings_fields('og_preview_settings');
                 do_settings_sections('og-preview-settings');
-                submit_button(__('Save Settings', 'sonic-og-preview'));
+                submit_button(__('Save Settings', 'sonic-open-graph-preview'));
                 ?>
             </form>
         </div>
