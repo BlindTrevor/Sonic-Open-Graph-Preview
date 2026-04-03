@@ -33,7 +33,7 @@ class OG_Preview_Metabox {
         foreach ($post_types as $post_type) {
             add_meta_box(
                 'og-preview-metabox',
-                __('Social Media Preview', 'sonic-og-preview'),
+                __('Social Media Preview', 'sonic-open-graph-preview'),
                 array($this, 'render_meta_box'),
                 $post_type,
                 'side',
@@ -102,7 +102,7 @@ class OG_Preview_Metabox {
             
             <div class="og-preview-refresh">
                 <button type="button" class="button og-preview-refresh-btn">
-                    <?php esc_html_e('Refresh Preview', 'sonic-og-preview'); ?>
+                    <?php esc_html_e('Refresh Preview', 'sonic-open-graph-preview'); ?>
                 </button>
             </div>
         </div>
