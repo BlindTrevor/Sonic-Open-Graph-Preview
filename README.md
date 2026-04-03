@@ -1,4 +1,4 @@
-# Sonic OG Preview
+# Sonic Open Graph Preview
 
 ![WordPress Plugin](https://img.shields.io/badge/WordPress-Plugin-blue)
 ![Version](https://img.shields.io/badge/version-1.1.0-green)
@@ -46,16 +46,16 @@ A WordPress plugin that provides a live preview of how your pages and posts will
 
 1. Download the latest release from the [GitHub repository](https://github.com/BlindTrevor/OG-Preview)
 2. Extract the ZIP file
-3. Upload the `sonic-og-preview` folder to the `/wp-content/plugins/` directory
+3. Upload the `sonic-open-graph-preview` folder to the `/wp-content/plugins/` directory
 4. Activate the plugin through the 'Plugins' menu in WordPress
-5. Configure settings at **Settings > Sonic OG Preview**
+5. Configure settings at **Settings > Sonic Open Graph Preview**
 
 ### From WordPress Plugin Directory (when available)
 
 1. Navigate to **Plugins > Add New** in your WordPress admin
-2. Search for "Sonic OG Preview"
+2. Search for "Sonic Open Graph Preview"
 3. Click **Install Now** and then **Activate**
-4. Configure settings at **Settings > Sonic OG Preview**
+4. Configure settings at **Settings > Sonic Open Graph Preview**
 
 ### Requirements
 
@@ -70,7 +70,7 @@ A WordPress plugin that provides a live preview of how your pages and posts will
 
 After installation and activation:
 
-1. Navigate to **Settings > Sonic OG Preview** in your WordPress admin
+1. Navigate to **Settings > Sonic Open Graph Preview** in your WordPress admin
 2. Enable the social media platforms you want to preview (Facebook, Twitter, WhatsApp, LinkedIn)
 3. Save your settings
 
@@ -103,7 +103,7 @@ After installation and activation:
 
 ### Settings
 
-Navigate to **Settings > Sonic OG Preview** in the WordPress admin to:
+Navigate to **Settings > Sonic Open Graph Preview** in the WordPress admin to:
 
 - **Enable/disable specific social platforms**: Choose which platforms (Facebook, Twitter, WhatsApp, LinkedIn) to show in the preview
 - **Control preview display**: Configure where and how previews appear in your WordPress admin
@@ -285,6 +285,10 @@ For issues, questions, and feature requests:
 - ⭐ [Star this repo](https://github.com/BlindTrevor/OG-Preview) if you find it useful!
 
 ## Changelog
+
+### 1.2.0
+- Renamed plugin to "Sonic Open Graph Preview" for WordPress Plugin Directory compliance
+- Updated plugin slug to sonic-open-graph-preview
 
 ### 1.1.0
 - Renamed plugin to "Sonic OG Preview" for WordPress Plugin Directory compliance

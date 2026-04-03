@@ -1,15 +1,15 @@
 <?php
 /**
- * Plugin Name: Sonic OG Preview
+ * Plugin Name: Sonic Open Graph Preview
  * Description: Preview how your page will look when shared on social media based on Open Graph tags. Includes Elementor integration.
- * Version: 1.1.0
+ * Version: 1.2.0
  * Requires at least: 5.0
  * Requires PHP: 7.0
  * Author: BlindTrevor
  * Author URI: https://soniclighting.com
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: sonic-og-preview
+ * Text Domain: sonic-open-graph-preview
  * Domain Path: /languages
  */
 

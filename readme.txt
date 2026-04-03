@@ -1,4 +1,4 @@
-=== Sonic OG Preview ===
+=== Sonic Open Graph Preview ===
 Contributors: blindtrevor
 Tags: open graph, social media, preview, elementor, seo
 Requires at least: 5.0
@@ -27,7 +27,7 @@ A WordPress plugin that provides a live preview of how your pages and posts will
 1. Download the plugin files
 2. Upload the `sonic-og-preview` folder to the `/wp-content/plugins/` directory
 3. Activate the plugin through the 'Plugins' menu in WordPress
-4. Configure settings at Settings > Sonic OG Preview
+4. Configure settings at Settings > Sonic Open Graph Preview
 
 == Frequently Asked Questions ==
 
@@ -49,6 +49,10 @@ The plugin supports previews for Facebook, Twitter, WhatsApp, and LinkedIn.
 2. Preview in Elementor editor with floating button
 
 == Changelog ==
+
+= 1.2.0 =
+* Renamed plugin to "Sonic Open Graph Preview" for WordPress Plugin Directory compliance
+* Updated plugin slug to sonic-open-graph-preview
 
 = 1.1.0 =
 * Renamed plugin to "Sonic OG Preview" for WordPress Plugin Directory compliance
