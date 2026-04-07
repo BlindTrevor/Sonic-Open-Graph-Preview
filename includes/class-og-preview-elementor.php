@@ -77,10 +77,7 @@ class OG_Preview_Elementor {
             <div class="og-preview-content">
                 <?php foreach ($platforms as $platform): ?>
                     <div class="og-preview-platform" data-platform="<?php echo esc_attr($platform); ?>">
-                        <?php 
-                        // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Already escaped in render_platform_preview
-                        echo OG_Preview_Renderer::render_platform_preview($platform, $og_tags); 
-                        ?>
+                        <?php echo wp_kses_post( OG_Preview_Renderer::render_platform_preview($platform, $og_tags) ); ?>
                     </div>
                 <?php endforeach; ?>
             </div>
